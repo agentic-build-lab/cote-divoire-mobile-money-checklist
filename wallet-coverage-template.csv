@@ -1,0 +1,7 @@
+country_code,provider,wallet,direction,merchant_entity_country,environment,coverage_evidence,source_url,checked_on,kyb_requirements,funding_or_authorisation,webhook_and_status,reconciliation_fields,settlement_currency,settlement_cutoff,fees,follow_up
+CI,,Wave,collection,,,unverified,,,,,,,,,,
+CI,,Wave,payout,,,unverified,,,,,,,,,,
+CI,,MTN,collection,,,unverified,,,,,,,,,,
+CI,,MTN,payout,,,unverified,,,,,,,,,,
+CI,,Orange,collection,,,unverified,,,,,,,,,,
+CI,,Orange,payout,,,unverified,,,,,,,,,,
