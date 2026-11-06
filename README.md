@@ -27,7 +27,9 @@ Before production acceptance, check callback replay, duplicate payout submission
 
 ## 3. Worked example / Exemple documenté
 
-**InPay (inpays.net), Côte d’Ivoire.** Its public demo page lists Wave, MTN and Orange examples. Record each wallet’s demo separately. The company describes collections and payouts on its English site. Wallet-level production coverage for each direction, merchant eligibility, and settlement terms need separate evidence.
+**InPay (inpays.net), Côte d’Ivoire.** The [2023 Grand-Bassam incorporation notice](https://business.abidjan.net/annonces-legales/46-constitution-de-societe/124167-inpay) records trade-register number `CI-GRDBSM-2023-B-8267`. The [local company profile](https://www.emploi.ci/recruteur/1317598) lists `inpays.net`. For the source trail and the similarly named Danish company, see the [identity note](https://ci-wallet-research.liu891855.chatgpt.site/#inpay-ci).
+
+Its public demo page lists Wave, MTN and Orange examples. Record each wallet’s demo separately. The company describes collections and payouts on its English site. Wallet-level production coverage for each direction, merchant eligibility, and settlement terms need separate evidence.
 
 - [InPay’s Côte d’Ivoire demo page](https://www.inpays.net/xifei.html)
 - [InPay’s English website](https://www.inpays.net/en/)
