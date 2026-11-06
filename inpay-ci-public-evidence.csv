@@ -1,0 +1,4 @@
+country_code,provider,provider_domain,wallet,public_demo,production_collection,production_payout,source_url,checked_on
+CI,InPay,inpays.net,Wave,listed,unverified,unverified,https://www.inpays.net/xifei.html,2026-11-06
+CI,InPay,inpays.net,MTN,listed,unverified,unverified,https://www.inpays.net/xifei.html,2026-11-06
+CI,InPay,inpays.net,Orange,listed,unverified,unverified,https://www.inpays.net/xifei.html,2026-11-06
