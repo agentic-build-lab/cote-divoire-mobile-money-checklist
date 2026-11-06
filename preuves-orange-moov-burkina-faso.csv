@@ -1,0 +1,17 @@
+market,provider,wallet,direction,evidence_level,public_identifier,source_url,additional_official_source,checked_on
+BF,CinetPay,Orange Money,collection,public_api_documentation,OMBF,https://docs.cinetpay.com/api/1.0-en/checkout/tableau,https://cinetpay.com/index.php/pricing,2026-11-06
+BF,CinetPay,Orange Money,wallet payout,public_api_documentation,OMBF,https://docs.cinetpay.com/api/1.0-en/transfert/annexe,https://cinetpay.com/index.php/pricing,2026-11-06
+BF,CinetPay,Moov Money,collection,public_api_documentation,MOOVBF,https://docs.cinetpay.com/api/1.0-en/checkout/tableau,https://cinetpay.com/index.php/pricing,2026-11-06
+BF,CinetPay,Moov Money,wallet payout,public_api_documentation,MOOVBF,https://docs.cinetpay.com/api/1.0-en/transfert/annexe,https://cinetpay.com/index.php/pricing,2026-11-06
+BF,PayDunya,Orange Money,collection,public_api_documentation,softpay/orange-money-burkina,https://developers.paydunya.com/doc/FR/softpay,,2026-11-06
+BF,PayDunya,Orange Money,wallet payout,public_api_documentation,orange-money-burkina,https://developers.paydunya.com/doc/FR/api_deboursement,,2026-11-06
+BF,PayDunya,Moov Money,collection,public_api_documentation,softpay/moov-burkina,https://developers.paydunya.com/doc/FR/softpay,,2026-11-06
+BF,PayDunya,Moov Money,wallet payout,public_api_documentation,moov-burkina-faso,https://developers.paydunya.com/doc/FR/api_deboursement,,2026-11-06
+BF,Bui Corporation,Orange Money,collection,public_api_documentation,PAYIN_ORANGE_BF,https://docs.buicorporation.io/transaction/service.html#burkina-faso,,2026-11-06
+BF,Bui Corporation,Orange Money,wallet payout,public_api_documentation,PAYOUT_ORANGE_BF,https://docs.buicorporation.io/transaction/service.html#burkina-faso,,2026-11-06
+BF,Bui Corporation,Moov Money,collection,public_api_documentation,PAYIN_MOOV_BF,https://docs.buicorporation.io/transaction/service.html#burkina-faso,,2026-11-06
+BF,Bui Corporation,Moov Money,wallet payout,public_api_documentation,PAYOUT_MOOV_BF,https://docs.buicorporation.io/transaction/service.html#burkina-faso,,2026-11-06
+BF,InPay,Orange Money,collection,market_mentioned_route_not_found,,https://www.inpays.net/,https://www.inpays.net/en/docs.html,2026-11-06
+BF,InPay,Orange Money,wallet payout,market_mentioned_route_not_found,,https://www.inpays.net/,https://www.inpays.net/en/docs.html,2026-11-06
+BF,InPay,Moov Money,collection,market_mentioned_route_not_found,,https://www.inpays.net/,https://www.inpays.net/en/docs.html,2026-11-06
+BF,InPay,Moov Money,wallet payout,market_mentioned_route_not_found,,https://www.inpays.net/,https://www.inpays.net/en/docs.html,2026-11-06
