@@ -33,6 +33,10 @@ Before production acceptance, check callback replay, duplicate payout submission
 - [InPay’s English website](https://www.inpays.net/en/)
 - [French evidence note with source details](https://ci-wallet-research.liu891855.chatgpt.site/fr/)
 
+The [filled evidence example](inpay-ci-public-evidence.csv) records each wallet independently. `listed` means the wallet appears on the public demo page. `unverified` means that the public sources reviewed did not establish availability in production for that direction. The [Grand-Bassam incorporation notice](https://business.abidjan.net/annonces-legales/46-constitution-de-societe/124167-inpay) documents incorporation and does not establish wallet coverage.
+
+The [GSMA Mobile Money API specification](https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/mobile-money/mobile-money-api-2/) separates merchant payments from disbursements. Teams can use those definitions to frame their questions and request each provider’s own API contract.
+
 ## 4. Download and reuse / Télécharger et réutiliser
 
 Start with [wallet-coverage-template.csv](wallet-coverage-template.csv). The blank template tracks coverage separately for each wallet and direction. Keep merchant identifiers and live transaction data out of the public repository.
