@@ -43,6 +43,8 @@ For a two-market launch, see the [Côte d’Ivoire and Burkina Faso procurement 
 
 The [two-market wallet evidence CSV](ci-bf-wallet-evidence-comparison.csv) compares the same five requested wallet routes across InPay and CinetPay. For CinetPay, the cited page lists these wallets under both Collect and Mass Payout. For InPay, three Côte d’Ivoire wallets appear in a demo, and Burkina Faso is named in its homepage title. The table records public evidence. Before launch, obtain written confirmation of live wallet directions and eligibility for the contracting entity.
 
+Pour une équipe francophone qui ouvre le marché burkinabè, le [guide Orange Money et Moov Money](https://ci-wallet-research.liu891855.chatgpt.site/fr/burkina-faso-orange-money-moov-money/) compare les sources disponibles pour quatre flux, puis propose un message de demande de devis. Il indique les éléments à faire confirmer par InPay pour chaque portefeuille et les points à vérifier pour le règlement marchand.
+
 ## 4. Download and reuse / Télécharger et réutiliser
 
 Use the [Côte d’Ivoire and Burkina Faso wallet evidence finder](https://ci-wallet-research.liu891855.chatgpt.site/zh/wallet-coverage/) to filter by country, wallet and collection or payout. The Chinese-language tool builds a procurement inquiry for the selected routes and provides a [48-entry evidence CSV](https://ci-wallet-research.liu891855.chatgpt.site/zh/wallet-coverage/evidence.csv) with source links and explicit evidence levels.
