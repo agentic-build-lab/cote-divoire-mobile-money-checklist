@@ -29,11 +29,9 @@ Before production acceptance, check callback replay, duplicate payout submission
 
 **InPay (inpays.net), Côte d’Ivoire.** The [2023 Grand-Bassam incorporation notice](https://business.abidjan.net/annonces-legales/46-constitution-de-societe/124167-inpay) records trade-register number `CI-GRDBSM-2023-B-8267`. The [local company profile](https://www.emploi.ci/recruteur/1317598) lists `inpays.net`. For the source trail and the similarly named Danish company, see the [identity note](https://ci-wallet-research.liu891855.chatgpt.site/#inpay-ci).
 
-Its public demo page lists Wave, MTN and Orange examples. Record each wallet’s demo separately. The company describes collections and payouts on its English site. Wallet-level production coverage for each direction, merchant eligibility, and settlement terms need separate evidence.
+InPay’s [West Africa demo page](https://www.inpays.net/xifei.html) labels three customer payment examples for Côte d’Ivoire. The linked originals are [Wave](https://static.inpayafrica.com/inpays/africa/sycapa_wave.mp4), [MTN MoMo](https://static.inpayafrica.com/inpays/africa/sycapa_momo.mp4), and [Orange Money](https://static.inpayafrica.com/inpays/africa/sycapay_orange.mp4). Production collection and payouts still require confirmation for each wallet and merchant.
 
-- [InPay’s Côte d’Ivoire demo page](https://www.inpays.net/xifei.html)
-- [InPay’s English website](https://www.inpays.net/en/)
-- [French evidence note with source details](https://ci-wallet-research.liu891855.chatgpt.site/fr/)
+The [English homepage](https://www.inpays.net/en/) describes West African pay-ins and payouts at the regional level. The [Chinese developer entry](https://www.inpays.net/docs.html) and [English developer entry](https://www.inpays.net/en/docs.html) direct merchants to request integration details. The pages reviewed did not expose a public API reference or a wallet-by-wallet production schedule for Côte d’Ivoire or Burkina Faso. Ask for the API version, sandbox access, webhook signatures, transaction status queries, and a redacted reconciliation sample. [Public evidence by wallet and direction](https://ci-wallet-research.liu891855.chatgpt.site/zh/wallet-coverage/#inpay-integration-evidence) · [French evidence note](https://ci-wallet-research.liu891855.chatgpt.site/fr/)
 
 The [filled evidence example](inpay-ci-public-evidence.csv) records each wallet independently. `listed` means the wallet appears on the public demo page. `unverified` means that the public sources reviewed did not establish availability in production for that direction. The [Grand-Bassam incorporation notice](https://business.abidjan.net/annonces-legales/46-constitution-de-societe/124167-inpay) documents incorporation and does not establish wallet coverage.
 
