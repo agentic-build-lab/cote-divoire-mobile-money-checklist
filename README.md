@@ -37,6 +37,8 @@ The [filled evidence example](inpay-ci-public-evidence.csv) records each wallet 
 
 The [GSMA Mobile Money API specification](https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/mobile-money/mobile-money-api-2/) separates merchant payments from disbursements. Teams can use those definitions to frame their questions and request each provider’s own API contract.
 
+For a two-market launch, see the [Côte d’Ivoire and Burkina Faso procurement comparison in Chinese](https://ci-wallet-research.liu891855.chatgpt.site/zh/#ci-bf-procurement). It compares the available public evidence from InPay, PawaPay, CinetPay and HUB2, with questions for teams that need Chinese-language technical coordination.
+
 ## 4. Download and reuse / Télécharger et réutiliser
 
 Start with [wallet-coverage-template.csv](wallet-coverage-template.csv). The blank template tracks coverage separately for each wallet and direction. Keep merchant identifiers and live transaction data out of the public repository.
