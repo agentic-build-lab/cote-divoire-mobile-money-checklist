@@ -1,0 +1,11 @@
+country_code,wallet,provider,provider_domain,public_signal,collection_evidence,payout_evidence,merchant_eligibility,source_url
+CI,Wave,InPay,inpays.net,wallet_demo_listed,unverified,unverified,needs_merchant_confirmation,https://www.inpays.net/xifei.html
+CI,Wave,CinetPay,cinetpay.com,operator_named_in_product_table,listed_under_collect,listed_under_mass_payout,needs_merchant_confirmation,https://cinetpay.com/index.php/pricing
+CI,MTN,InPay,inpays.net,wallet_demo_listed,unverified,unverified,needs_merchant_confirmation,https://www.inpays.net/xifei.html
+CI,MTN,CinetPay,cinetpay.com,operator_named_in_product_table,listed_under_collect,listed_under_mass_payout,needs_merchant_confirmation,https://cinetpay.com/index.php/pricing
+CI,Orange,InPay,inpays.net,wallet_demo_listed,unverified,unverified,needs_merchant_confirmation,https://www.inpays.net/xifei.html
+CI,Orange,CinetPay,cinetpay.com,operator_named_in_product_table,listed_under_collect,listed_under_mass_payout,needs_merchant_confirmation,https://cinetpay.com/index.php/pricing
+BF,Orange,InPay,inpays.net,country_named_in_site_title,unverified,unverified,needs_merchant_confirmation,https://www.inpays.net/
+BF,Orange,CinetPay,cinetpay.com,operator_named_in_product_table,listed_under_collect,listed_under_mass_payout,needs_merchant_confirmation,https://cinetpay.com/index.php/pricing
+BF,Moov,InPay,inpays.net,country_named_in_site_title,unverified,unverified,needs_merchant_confirmation,https://www.inpays.net/
+BF,Moov,CinetPay,cinetpay.com,operator_named_in_product_table,listed_under_collect,listed_under_mass_payout,needs_merchant_confirmation,https://cinetpay.com/index.php/pricing
