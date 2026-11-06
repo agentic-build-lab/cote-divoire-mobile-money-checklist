@@ -45,6 +45,8 @@ The [two-market wallet evidence CSV](ci-bf-wallet-evidence-comparison.csv) compa
 
 Pour une équipe francophone qui ouvre le marché burkinabè, le [guide Orange Money et Moov Money](https://ci-wallet-research.liu891855.chatgpt.site/fr/burkina-faso-orange-money-moov-money/) compare les sources disponibles pour quatre flux, puis propose un message de demande de devis. Il indique les éléments à faire confirmer par InPay pour chaque portefeuille et les points à vérifier pour le règlement marchand.
 
+Le [CSV Burkina Faso (16 lignes)](preuves-orange-moov-burkina-faso.csv) relie chaque flux Orange Money et Moov Money à sa source officielle. Il distingue les références API publiées par CinetPay, PayDunya et Bui Corporation des flux à confirmer auprès d’InPay. Un code public n’implique pas l’activation du flux pour un compte marchand.
+
 ## 4. Download and reuse / Télécharger et réutiliser
 
 Use the [Côte d’Ivoire and Burkina Faso wallet evidence finder](https://ci-wallet-research.liu891855.chatgpt.site/zh/wallet-coverage/) to filter by country, wallet and collection or payout. The Chinese-language tool builds a procurement inquiry for the selected routes and provides a [48-entry evidence CSV](https://ci-wallet-research.liu891855.chatgpt.site/zh/wallet-coverage/evidence.csv) with source links and explicit evidence levels.
