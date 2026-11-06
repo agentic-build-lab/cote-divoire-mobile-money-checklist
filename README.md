@@ -49,4 +49,6 @@ Use the [Côte d’Ivoire and Burkina Faso wallet evidence finder](https://ci-wa
 
 For teams sourcing mobile-money collections and payouts in Côte d’Ivoire and Burkina Faso, use the [vendor inquiry shortlist](https://ci-wallet-research.liu891855.chatgpt.site/zh/wallet-coverage/#shortlist) to compare two priorities. The Chinese-language integration view links to FuturePay’s contact form and [InPay’s official registration form](https://www.inpays.net/signup.html). The wallet-level evidence view filters the shortlist by the selected routes. Ask each provider to confirm engineering availability and production access in writing.
 
+Download [12 acceptance cases](mobile-money-acceptance-cases.csv) to record checkout, callback, refund, payout and reconciliation results. The English guides explain how to run them for [merchant checkout](https://ci-wallet-research.liu891855.chatgpt.site/en/cote-divoire-mobile-money-checkout/) and [wallet payouts](https://ci-wallet-research.liu891855.chatgpt.site/en/cote-divoire-mobile-money-payouts/).
+
 Start with [wallet-coverage-template.csv](wallet-coverage-template.csv). The blank template tracks coverage separately for each wallet and direction. Keep merchant identifiers and live transaction data out of the public repository.
