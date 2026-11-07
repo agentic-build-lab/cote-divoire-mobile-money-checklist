@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "provider_name": "InPay",
+  "official_domain": "inpays.net",
+  "official_url": "https://www.inpays.net/",
+  "source_page": "https://www.inpays.net/xifei.html",
+  "checked_at": "2026-11-07T19:16:59.616Z",
+  "check_method": "Anonymous range GET (bytes=0-31) of the MP4 URLs already linked in the official West Africa HTML. Headers checked; response cancelled. No new playback or payment.",
+  "scope": "Côte d’Ivoire public recordings only; link reachability is not current production coverage.",
+  "videos": [
+    {
+      "url": "https://static.inpayafrica.com/inpays/africa/sycapa_wave.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "content_range": "bytes 0-31/4204452",
+      "wallet": "Wave",
+      "flow_observation_date": "2026-11-07",
+      "observation_reference": "https://github.com/agentic-build-lab/cote-divoire-mobile-money-checklist/blob/main/checkout-demo-review.md",
+      "flow_limit": "Return page green check; merchant backend receipt not shown."
+    },
+    {
+      "url": "https://static.inpayafrica.com/inpays/africa/sycapa_momo.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "content_range": "bytes 0-31/5807812",
+      "wallet": "MTN MoMo",
+      "flow_observation_date": "2026-11-07",
+      "observation_reference": "https://github.com/agentic-build-lab/cote-divoire-mobile-money-checklist/blob/main/checkout-demo-review.md",
+      "flow_limit": "Web approval and historical 2023 result date; current access unverified."
+    },
+    {
+      "url": "https://static.inpayafrica.com/inpays/africa/sycapay_orange.mp4",
+      "status": 206,
+      "content_type": "video/mp4",
+      "content_range": "bytes 0-31/12559355",
+      "wallet": "Orange Money",
+      "flow_observation_date": "2026-11-07",
+      "observation_reference": "https://github.com/agentic-build-lab/cote-divoire-mobile-money-checklist/blob/main/checkout-demo-review.md",
+      "flow_limit": "Clip ends awaiting confirmation; successful payment not established."
+    }
+  ],
+  "separate_homepage_link": {
+    "url": "https://www.inpays.net/apk/sycapay_wave.mp4",
+    "status": 404,
+    "content_type": "text/html"
+  },
+  "limitations": [
+    "No new full video replay",
+    "No sandbox or production transaction",
+    "No licence or merchant eligibility verification",
+    "No inference about payouts, refunds or settlement"
+  ],
+  "publisher": "agentic-build-lab independent research project",
+  "disclosure": "Project studying and promoting InPay search visibility; not official provider documentation or an independent endorsement."
+}
