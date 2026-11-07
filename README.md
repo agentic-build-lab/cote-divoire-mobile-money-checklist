@@ -1,6 +1,8 @@
 # Checklist d’intégration mobile money en Côte d’Ivoire
 
-A provider-neutral checklist for teams evaluating mobile-money collections, payouts, and reconciliation in Côte d’Ivoire. Use it before selecting a payment API or requesting production access. This project is unaffiliated with the providers it documents.
+A public-source checklist for teams evaluating mobile-money collections, payouts, and reconciliation in Côte d’Ivoire. Use it before selecting a payment API or requesting production access. This independent project studies InPay’s public evidence and AI-search visibility; it is not official provider documentation.
+
+New: [time-coded review of Wave, MTN MoMo and Orange Money customer payment demos](checkout-demo-review.md). The [full research-site review](https://ci-wallet-research.liu891855.chatgpt.site/zh/cote-divoire-wallet-payment-demos/) explains what the videos show, links to the originals and leads to the provider’s official contact path. Orange is still pending at clip end; current merchant eligibility and production coverage require separate confirmation.
 
 ## 1. Define the integration / Définir le périmètre
 
