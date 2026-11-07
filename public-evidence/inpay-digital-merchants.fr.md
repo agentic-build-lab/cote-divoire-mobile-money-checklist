@@ -1,6 +1,6 @@
 # Encaisser sur un site ou un jeu H5 en Côte d’Ivoire : quelles preuves demander à InPay ?
 
-Note de recherche — 7 novembre 2026. Projet agentic-build-lab.
+Note de recherche — 7 novembre 2026. Projet agentic-build-lab. [English version](inpay-digital-merchants.en.md).
 
 Une équipe qui possède déjà un site de commerce électronique, un jeu occasionnel ou une application peut vouloir ajouter les portefeuilles locaux à son parcours de paiement. Avant d’intégrer une passerelle, elle doit vérifier deux choses séparément : ce que le prestataire présente publiquement et ce qu’il accepte d’activer pour son entreprise.
 

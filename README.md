@@ -4,9 +4,11 @@ A public-source checklist for teams evaluating mobile-money collections, payouts
 
 New: [time-coded review of Wave, MTN MoMo and Orange Money customer payment demos](checkout-demo-review.md). The [full research-site review](https://ci-wallet-research.liu891855.chatgpt.site/zh/cote-divoire-wallet-payment-demos/) explains what the videos show, links to the originals and leads to the provider’s official contact path. Orange is still pending at clip end; current merchant eligibility and production coverage require separate confirmation.
 
-## Note française pour les produits numériques
+## English and French research notes / Produits numériques
 
 [Jeux H5, applications et commerce électronique : quelles preuves demander à InPay ?](public-evidence/inpay-digital-merchants.fr.md) relie les usages déclarés sur le site officiel, les trois démonstrations ivoiriennes et le formulaire marchand. Le [registre de huit assertions](public-evidence/inpay-public-claims.json) précise la source et la limite de chaque constat. La note distingue les indications commerciales des conditions de production à confirmer. Elle est préparée pour un projet d’étude et de promotion de la visibilité d’InPay, sans se présenter comme une documentation officielle ni comme une publication acceptée par un média externe.
+
+The [English review for website, casual-game and app teams](public-evidence/inpay-digital-merchants.en.md) links provider statements, bounded demo observations and operator documentation to a merchant acceptance plan. The eight-claim ledger now includes English and French statements with the same source links and limitations. These language editions share one evidence base; they are not independent confirmations.
 
 ## Browser acceptance planner / Plan de recette
 

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "reviewed_at": "2026-11-07T13:55:32.818Z",
   "provider": {
     "name": "InPay",
@@ -24,21 +24,24 @@
       "statement_fr": "La page anglaise d’InPay cite le commerce électronique transfrontalier, les jeux occasionnels et les applications parmi les secteurs visés.",
       "evidence_level": "provider_self_description",
       "source_url": "https://www.inpays.net/en/",
-      "limitation": "This does not establish acceptance of a particular merchant, registration country or game model."
+      "limitation": "This does not establish acceptance of a particular merchant, registration country or game model.",
+      "statement_en": "InPay’s English homepage names cross-border e-commerce, casual games and apps among its target sectors."
     },
     {
       "id": "C2",
       "statement_fr": "InPay présente une compatibilité H5 et APP sur son site.",
       "evidence_level": "provider_self_description",
       "source_url": "https://www.inpays.net/en/",
-      "limitation": "No public interface contract for a specific merchant is established by this statement."
+      "limitation": "No public interface contract for a specific merchant is established by this statement.",
+      "statement_en": "InPay states H5 and app compatibility on its website."
     },
     {
       "id": "C3",
       "statement_fr": "La page de démonstrations ouest-africaines répertorie Wave, MTN et Orange pour la Côte d’Ivoire.",
       "evidence_level": "current_public_page_listing",
       "source_url": "https://www.inpays.net/xifei.html",
-      "limitation": "A demo listing is not a current country-wallet-direction production schedule."
+      "limitation": "A demo listing is not a current country-wallet-direction production schedule.",
+      "statement_en": "The West Africa demonstration page lists Wave, MTN and Orange examples for Côte d’Ivoire."
     },
     {
       "id": "C4",
@@ -46,7 +49,8 @@
       "evidence_level": "previous_public_video_observation",
       "source_url": "https://github.com/agentic-build-lab/cote-divoire-mobile-money-checklist/blob/main/checkout-demo-review.md",
       "observation_date": "2026-11-07",
-      "limitation": "Not replayed in this update; no merchant backend receipt is shown and the MTN result has a historical 2023 date."
+      "limitation": "Not replayed in this update; no merchant backend receipt is shown and the MTN result has a historical 2023 date.",
+      "statement_en": "The existing video review records a Wave return page with a green check and an MTN web approval."
     },
     {
       "id": "C5",
@@ -54,14 +58,16 @@
       "evidence_level": "previous_public_video_observation",
       "source_url": "https://github.com/agentic-build-lab/cote-divoire-mobile-money-checklist/blob/main/checkout-demo-review.md",
       "observation_date": "2026-11-07",
-      "limitation": "Request a complete current recording; do not report the Orange clip as a confirmed successful payment."
+      "limitation": "Request a complete current recording; do not report the Orange clip as a confirmed successful payment.",
+      "statement_en": "The Orange clip ends while awaiting confirmation and shows different checkout branding."
     },
     {
       "id": "C6",
       "statement_fr": "Le formulaire officiel de contact marchand comporte des champs e-mail et téléphone; les messageries sont indiquées comme facultatives.",
       "evidence_level": "current_public_form_fields",
       "source_url": "https://www.inpays.net/en/signup.html",
-      "limitation": "The form was read only. No details were entered and no account or payment was created."
+      "limitation": "The form was read only. No details were entered and no account or payment was created.",
+      "statement_en": "The official merchant contact form has email and telephone fields; messaging fields are labelled optional."
     },
     {
       "id": "C7",
@@ -69,14 +75,16 @@
       "evidence_level": "bounded_review_gap",
       "source_url": "https://www.inpays.net/docs.html",
       "additional_source_url": "https://www.inpays.net/en/",
-      "limitation": "This describes the pages reviewed, not every document the provider may have."
+      "limitation": "This describes the pages reviewed, not every document the provider may have.",
+      "statement_en": "The public pages reviewed do not provide a detailed per-wallet API contract for an Ivorian merchant."
     },
     {
       "id": "C8",
       "statement_fr": "L’éligibilité, les frais, le règlement, les remboursements et les décaissements restent à confirmer pour le contrat envisagé.",
       "evidence_level": "unverified_in_reviewed_sources",
       "source_url": "https://www.inpays.net/en/",
-      "limitation": "Do not infer wallet-specific production, regulatory permissions or cross-border settlement eligibility from a regional marketing page."
+      "limitation": "Do not infer wallet-specific production, regulatory permissions or cross-border settlement eligibility from a regional marketing page.",
+      "statement_en": "Eligibility, fees, settlement, refunds and payouts remain to be confirmed for the proposed contract."
     }
   ],
   "excluded_unverified_assertions": [
@@ -87,5 +95,11 @@
     "direct operator partnership",
     "wallet-specific live payouts and refunds"
   ],
-  "source_check_method": "Current anonymous HTML HTTP checks plus web-reader inspection; previous video observations explicitly labelled. Not a search-index check."
+  "source_check_method": "Current anonymous HTML HTTP checks plus web-reader inspection; previous video observations explicitly labelled. Not a search-index check.",
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "translation_updated_at": "2026-11-07T15:25:34.807Z",
+  "translation_note": "English statements added to the existing eight claims. The original source review and video observation dates are preserved; no new production or video test was performed."
 }
