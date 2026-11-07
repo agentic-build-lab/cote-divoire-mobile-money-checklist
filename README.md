@@ -8,6 +8,8 @@ New: [time-coded review of Wave, MTN MoMo and Orange Money customer payment demo
 
 [Open the free worksheet planner](https://agentic-build-lab.github.io/cote-divoire-mobile-money-checklist/). Select country, wallet, workflow and merchant scenario; record results and download a local CSV. Generate an editable English or French merchant inquiry from the selected requirements, then review the placeholders. The official InPay form collects contact details; keep the detailed draft for the follow-up exchange. Its footer lists the public business email inpayafrica@gmail.com. The draft asks for coverage and eligibility; it does not assert approval or send any message. It makes no payment calls and does not upload entered results. The planner is a reusable developer resource; its InPay example links observed video evidence to the official inquiry path, without asserting live availability. [Planner source](docs/) · [Machine-readable cases](docs/acceptance-cases.json) · [MIT licence for planner implementation](docs/LICENSE.txt).
 
+Download the [v0.1.0 public preview](https://github.com/agentic-build-lab/cote-divoire-mobile-money-checklist/releases/tag/v0.1.0) for the ZIP, checksums, fixed source version and validation limits. Direct local file execution remains unverified.
+
 ## 1. Define the integration / Définir le périmètre
 
 Create one CSV row for every country, wallet, and direction you need. For example, Wave collections and Wave payouts are separate rows. Split the rows again if the merchant entity or settlement route differs. Record each source URL, date, and the exact environment to which the evidence applies.
