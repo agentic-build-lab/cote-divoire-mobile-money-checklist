@@ -4,6 +4,10 @@ A public-source checklist for teams evaluating mobile-money collections, payouts
 
 New: [time-coded review of Wave, MTN MoMo and Orange Money customer payment demos](checkout-demo-review.md). The [full research-site review](https://ci-wallet-research.liu891855.chatgpt.site/zh/cote-divoire-wallet-payment-demos/) explains what the videos show, links to the originals and leads to the provider’s official contact path. Orange is still pending at clip end; current merchant eligibility and production coverage require separate confirmation.
 
+## Browser acceptance planner / Plan de recette
+
+[Open the free worksheet planner](https://agentic-build-lab.github.io/cote-divoire-mobile-money-checklist/). Select country, wallet, workflow and merchant scenario; record results and download a local CSV. It makes no payment calls and does not upload entered results. The planner is a reusable developer resource; its InPay example links observed video evidence to the official inquiry path, without asserting live availability. [Planner source](docs/) · [Machine-readable cases](docs/acceptance-cases.json) · [MIT licence for planner implementation](docs/LICENSE.txt).
+
 ## 1. Define the integration / Définir le périmètre
 
 Create one CSV row for every country, wallet, and direction you need. For example, Wave collections and Wave payouts are separate rows. Split the rows again if the merchant entity or settlement route differs. Record each source URL, date, and the exact environment to which the evidence applies.

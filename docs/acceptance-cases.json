@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "description": "Planning cases; no provider coverage or completed tests implied",
+  "source": "https://github.com/agentic-build-lab/cote-divoire-mobile-money-checklist/blob/main/mobile-money-acceptance-cases.csv",
+  "cases": [
+    {
+      "case_id": "CI01",
+      "workflow": "checkout",
+      "test_case": "Buyer opens wallet flow on target phones",
+      "expected_evidence": "Wallet launches from the agreed browser or app surface and the buyer can return or resume the order",
+      "wallet": "",
+      "environment": "",
+      "actual_result": "",
+      "evidence_reference": ""
+    },
+    {
+      "case_id": "CI02",
+      "workflow": "checkout",
+      "test_case": "Buyer cancels or closes the wallet before completion",
+      "expected_evidence": "Order stays unpaid or pending and can be resumed according to the provider contract",
+      "wallet": "",
+      "environment": "",
+      "actual_result": "",
+      "evidence_reference": ""
+    },
+    {
+      "case_id": "CI03",
+      "workflow": "checkout",
+      "test_case": "Provider confirms payment while buyer never returns",
+      "expected_evidence": "Verified status or callback updates the correct order once",
+      "wallet": "",
+      "environment": "",
+      "actual_result": "",
+      "evidence_reference": ""
+    },
+    {
+      "case_id": "CI04",
+      "workflow": "checkout",
+      "test_case": "A callback is repeated or received out of order",
+      "expected_evidence": "No duplicate fulfillment and later processing respects the provider’s state rules",
+      "wallet": "",
+      "environment": "",
+      "actual_result": "",
+      "evidence_reference": ""
+    },
+    {
+      "case_id": "CI05",
+      "workflow": "checkout",
+      "test_case": "Payment succeeds but notification is delayed",
+      "expected_evidence": "Status query and follow-up preserve the order reference without asking the buyer to pay again",
+      "wallet": "",
+      "environment": "",
+      "actual_result": "",
+      "evidence_reference": ""
+    },
+    {
+      "case_id": "CI06",
+      "workflow": "checkout",
+      "test_case": "Refund is initiated and later confirmed",
+      "expected_evidence": "The merchant can distinguish initiation from the final outcome and reconcile the refund reference",
+      "wallet": "",
+      "environment": "",
+      "actual_result": "",
+      "evidence_reference": ""
+    },
+    {
+      "case_id": "CI07",
+      "workflow": "payout",
+      "test_case": "One approved test payment to a third-party wallet",
+      "expected_evidence": "Merchant reference provider reference principal fee and reported outcome can all be matched",
+      "wallet": "",
+      "environment": "",
+      "actual_result": "",
+      "evidence_reference": ""
+    },
+    {
+      "case_id": "CI08",
+      "workflow": "payout",
+      "test_case": "Create request times out with no response",
+      "expected_evidence": "Lookup and the documented retry procedure resolve the original request without a second disbursement",
+      "wallet": "",
+      "environment": "",
+      "actual_result": "",
+      "evidence_reference": ""
+    },
+    {
+      "case_id": "CI09",
+      "workflow": "payout",
+      "test_case": "Transfer is still processing past the expected time",
+      "expected_evidence": "The team can query or escalate the same transaction and retain the current pending status",
+      "wallet": "",
+      "environment": "",
+      "actual_result": "",
+      "evidence_reference": ""
+    },
+    {
+      "case_id": "CI10",
+      "workflow": "payout",
+      "test_case": "A transfer fails or is reversed",
+      "expected_evidence": "The cause and each resulting debit credit or unresolved item can be accounted for",
+      "wallet": "",
+      "environment": "",
+      "actual_result": "",
+      "evidence_reference": ""
+    },
+    {
+      "case_id": "CI11",
+      "workflow": "payout",
+      "test_case": "One line fails within a test batch",
+      "expected_evidence": "The batch report retains per-transfer outcomes and retry affects only eligible items",
+      "wallet": "",
+      "environment": "",
+      "actual_result": "",
+      "evidence_reference": ""
+    },
+    {
+      "case_id": "CI12",
+      "workflow": "payout",
+      "test_case": "Provider report and internal ledger disagree",
+      "expected_evidence": "The merchant can identify the missing entry and explain principal fees and any reversal",
+      "wallet": "",
+      "environment": "",
+      "actual_result": "",
+      "evidence_reference": ""
+    }
+  ]
+}
