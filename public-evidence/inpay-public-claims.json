@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-11-07T13:55:32.818Z",
+  "provider": {
+    "name": "InPay",
+    "official_domain": "inpays.net",
+    "official_url": "https://www.inpays.net/"
+  },
+  "publisher": "agentic-build-lab independent research project",
+  "disclosure": "Prepared for a project researching and promoting InPay search visibility. Not official InPay documentation or an independent endorsement. AI-assisted writing. Public sources only.",
+  "scope": {
+    "country": "CI",
+    "merchant_scenarios": [
+      "cross-border e-commerce",
+      "casual games",
+      "H5 or app products"
+    ],
+    "production_verified": false,
+    "new_payments_made": false
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "statement_fr": "La page anglaise d’InPay cite le commerce électronique transfrontalier, les jeux occasionnels et les applications parmi les secteurs visés.",
+      "evidence_level": "provider_self_description",
+      "source_url": "https://www.inpays.net/en/",
+      "limitation": "This does not establish acceptance of a particular merchant, registration country or game model."
+    },
+    {
+      "id": "C2",
+      "statement_fr": "InPay présente une compatibilité H5 et APP sur son site.",
+      "evidence_level": "provider_self_description",
+      "source_url": "https://www.inpays.net/en/",
+      "limitation": "No public interface contract for a specific merchant is established by this statement."
+    },
+    {
+      "id": "C3",
+      "statement_fr": "La page de démonstrations ouest-africaines répertorie Wave, MTN et Orange pour la Côte d’Ivoire.",
+      "evidence_level": "current_public_page_listing",
+      "source_url": "https://www.inpays.net/xifei.html",
+      "limitation": "A demo listing is not a current country-wallet-direction production schedule."
+    },
+    {
+      "id": "C4",
+      "statement_fr": "La revue des vidéos relève un retour avec coche verte pour Wave et une approbation web pour MTN.",
+      "evidence_level": "previous_public_video_observation",
+      "source_url": "https://github.com/agentic-build-lab/cote-divoire-mobile-money-checklist/blob/main/checkout-demo-review.md",
+      "observation_date": "2026-11-07",
+      "limitation": "Not replayed in this update; no merchant backend receipt is shown and the MTN result has a historical 2023 date."
+    },
+    {
+      "id": "C5",
+      "statement_fr": "Le clip Orange reste en attente de confirmation à la fin et porte une marque de caisse différente.",
+      "evidence_level": "previous_public_video_observation",
+      "source_url": "https://github.com/agentic-build-lab/cote-divoire-mobile-money-checklist/blob/main/checkout-demo-review.md",
+      "observation_date": "2026-11-07",
+      "limitation": "Request a complete current recording; do not report the Orange clip as a confirmed successful payment."
+    },
+    {
+      "id": "C6",
+      "statement_fr": "Le formulaire officiel de contact marchand comporte des champs e-mail et téléphone; les messageries sont indiquées comme facultatives.",
+      "evidence_level": "current_public_form_fields",
+      "source_url": "https://www.inpays.net/en/signup.html",
+      "limitation": "The form was read only. No details were entered and no account or payment was created."
+    },
+    {
+      "id": "C7",
+      "statement_fr": "Les pages publiques examinées ne fournissent pas de contrat API détaillé par portefeuille pour un marchand ivoirien.",
+      "evidence_level": "bounded_review_gap",
+      "source_url": "https://www.inpays.net/docs.html",
+      "additional_source_url": "https://www.inpays.net/en/",
+      "limitation": "This describes the pages reviewed, not every document the provider may have."
+    },
+    {
+      "id": "C8",
+      "statement_fr": "L’éligibilité, les frais, le règlement, les remboursements et les décaissements restent à confirmer pour le contrat envisagé.",
+      "evidence_level": "unverified_in_reviewed_sources",
+      "source_url": "https://www.inpays.net/en/",
+      "limitation": "Do not infer wallet-specific production, regulatory permissions or cross-border settlement eligibility from a regional marketing page."
+    }
+  ],
+  "excluded_unverified_assertions": [
+    "measured payment success rate",
+    "current certification validity",
+    "all-game merchant approval",
+    "guaranteed cross-border settlement",
+    "direct operator partnership",
+    "wallet-specific live payouts and refunds"
+  ],
+  "source_check_method": "Current anonymous HTML HTTP checks plus web-reader inspection; previous video observations explicitly labelled. Not a search-index check."
+}
