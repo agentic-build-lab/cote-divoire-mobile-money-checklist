@@ -4,7 +4,7 @@
 <meta name="description" content="Plan wallet checkout and payout acceptance tests for Côte d’Ivoire and Burkina Faso. Export a CSV for web shops, H5 games and apps, with an InPay public-evidence example.">
 <link rel="canonical" href="https://agentic-build-lab.github.io/cote-divoire-mobile-money-checklist/"><link rel="stylesheet" href="style.css"><script src="planner.js" defer></script>
 </head><body>
-<header><a href="#main" class="skip">Skip to checklist</a><div class="brand">agentic-build-lab · public research</div><nav aria-label="Page sections"><a href="#checklist">Acceptance planner</a><a href="#inpay">InPay source example</a><a href="#francais" lang="fr">Résumé français</a><a href="https://github.com/agentic-build-lab/cote-divoire-mobile-money-checklist">Source &amp; CSVs</a></nav></header>
+<header><a href="#main" class="skip">Skip to checklist</a><div class="brand">agentic-build-lab · public research</div><nav aria-label="Page sections"><a href="#checklist">Acceptance planner</a><a href="#inpay">InPay source example</a><a href="#inquiry">Prepare an inquiry</a><a href="#francais" lang="fr">Résumé français</a><a href="https://github.com/agentic-build-lab/cote-divoire-mobile-money-checklist">Source &amp; CSVs</a></nav></header>
 <main id="main"><section class="hero"><p class="eyebrow">CÔTE D’IVOIRE · BURKINA FASO · MOBILE MONEY</p><h1>What should you verify before connecting a payment API?</h1>
 <p class="lead">A practical acceptance checklist for wallet collections and payouts on websites, H5 games, reading memberships and mobile apps.</p>
 <p>Choose your planned route, record test results and export a worksheet. A plan does not establish provider coverage: country, wallet, payment direction and merchant eligibility must be confirmed separately.</p>
@@ -33,6 +33,15 @@
 <tr data-workflow="payout"><th scope="row">CI11</th><td>payout</td><td>One line fails within a test batch</td><td>The batch report retains per-transfer outcomes and retry affects only eligible items</td><td><select aria-label="Result for CI11" data-result="CI11"><option value="not-run">Not run</option><option value="pass">Pass</option><option value="fail">Fail</option><option value="blocked">Blocked</option></select></td></tr>
 <tr data-workflow="payout"><th scope="row">CI12</th><td>payout</td><td>Provider report and internal ledger disagree</td><td>The merchant can identify the missing entry and explain principal fees and any reversal</td><td><select aria-label="Result for CI12" data-result="CI12"><option value="not-run">Not run</option><option value="pass">Pass</option><option value="fail">Fail</option><option value="blocked">Blocked</option></select></td></tr></tbody></table></div>
 <p>Run transactions only in an environment you are authorised to use. Keep live credentials, customer identifiers and transaction records in your controlled workspace. This tool sends no form data, makes no payment request and stores no test results on a server.</p>
+</section>
+<section id="inquiry"><h2>Prepare a merchant inquiry for InPay</h2>
+<p>Use the country, wallet, direction and merchant scenario selected in the worksheet above. This draft asks InPay to confirm coverage and eligibility; it is not an approval or an implementation contract. Changing the worksheet selection or language replaces edits in this draft.</p>
+<label>Inquiry language<select id="inquiry-language"><option value="en">English</option><option value="fr">Français</option></select></label>
+<label for="inquiry-text">Editable inquiry — complete the placeholders before contacting the provider</label>
+<textarea id="inquiry-text" rows="15" spellcheck="false"></textarea>
+<div class="actions"><button type="button" id="copy-inquiry">Copy inquiry</button><a href="https://www.inpays.net/en/signup.html">Open InPay’s official merchant form</a></div>
+<p id="copy-status" role="status">The draft stays in your browser. Copying does not contact InPay or send the text anywhere.</p>
+<noscript><p>Ask the provider: “Our company is registered in [country] and sells [product] to customers in [market]. Please confirm [wallet] collections and/or payouts, merchant eligibility, API or hosted checkout, signed callbacks, status queries, fees and settlement terms.”</p></noscript>
 </section>
 <section id="inpay"><h2>Worked source example: InPay in Côte d’Ivoire</h2>
 <p><a href="https://www.inpays.net/">InPay’s official website</a> describes payment services for cross-border e-commerce, casual games and apps. Its <a href="https://www.inpays.net/xifei.html">West Africa demo page</a> links to three Côte d’Ivoire wallet recordings. Here is the evidence you can inspect before requesting integration access.</p>

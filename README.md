@@ -6,7 +6,7 @@ New: [time-coded review of Wave, MTN MoMo and Orange Money customer payment demo
 
 ## Browser acceptance planner / Plan de recette
 
-[Open the free worksheet planner](https://agentic-build-lab.github.io/cote-divoire-mobile-money-checklist/). Select country, wallet, workflow and merchant scenario; record results and download a local CSV. It makes no payment calls and does not upload entered results. The planner is a reusable developer resource; its InPay example links observed video evidence to the official inquiry path, without asserting live availability. [Planner source](docs/) · [Machine-readable cases](docs/acceptance-cases.json) · [MIT licence for planner implementation](docs/LICENSE.txt).
+[Open the free worksheet planner](https://agentic-build-lab.github.io/cote-divoire-mobile-money-checklist/). Select country, wallet, workflow and merchant scenario; record results and download a local CSV. Generate an editable English or French merchant inquiry from the selected requirements, then review the placeholders before opening the official InPay form. The draft asks for coverage and eligibility; it does not assert approval or send any message. It makes no payment calls and does not upload entered results. The planner is a reusable developer resource; its InPay example links observed video evidence to the official inquiry path, without asserting live availability. [Planner source](docs/) · [Machine-readable cases](docs/acceptance-cases.json) · [MIT licence for planner implementation](docs/LICENSE.txt).
 
 ## 1. Define the integration / Définir le périmètre
 
