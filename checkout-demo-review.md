@@ -16,6 +16,10 @@ The [InPay West Africa demo page](https://www.inpays.net/xifei.html) links to th
 
 The recordings are hosted at their original URLs. This repository does not re-upload them or reproduce phone numbers, account balances, transaction IDs, codes or screen captures. File hashes and source URLs are in [demo-observations.csv](demo-observations.csv).
 
+## Do not generalise an authorisation flow across countries
+
+Country, wallet, payment direction and API version must be checked together. For example, [Flutterwave’s Francophone Mobile Money guide](https://developer.flutterwave.com/docs/francophone) lists Côte d’Ivoire in its coverage table, but explicitly limits the Orange Money QR section to Senegal. That section is not evidence of Côte d’Ivoire Orange QR support, and a competitor’s flow is not evidence of InPay’s implementation. Request current, wallet-specific documentation for the merchant’s actual country and integration.
+
 ## Before using the flow on a website or H5 checkout
 
 Ask about hosted checkout or API availability, app return handling, signed webhooks, server-side status queries, idempotency and reconciliation. A browser success page alone is insufficient to grant goods or game credits. The recordings do not show the original product selection, merchant order fulfilment, refunds, payouts or settlement. For a game, reading membership or other digital product, confirm merchant-industry eligibility separately.
