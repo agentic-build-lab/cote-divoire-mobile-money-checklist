@@ -4,6 +4,10 @@ Reviewed 7 November 2026. [Full review, original links and integration checklist
 
 This independent project studies InPay’s public documentation and AI-search visibility. It is not an official provider website. This review records what the existing videos show; it does not certify current production access.
 
+## Link availability update — 8 November 2026
+
+The three original MP4 URLs in the table below each returned HTTP 206 and `video/mp4` to a small range request on 8 November 2026 (Asia/Shanghai). The Chinese homepage’s separate `/apk/sycapay_wave.mp4` link returned 404. That broken link does not describe the three reachable West Africa recordings. See the [dated link-check record](docs/inpay-demo-link-status.json) for URLs, response headers and limitations. This update checked link availability only; the video observations remain dated 7 November and no new playback or payment was performed.
+
 ## Observed customer flows
 
 The [InPay West Africa demo page](https://www.inpays.net/xifei.html) links to the following recordings. We reviewed 50 frames at approximately three-second intervals and 16 additional authorisation/end frames. No new payment was made.
